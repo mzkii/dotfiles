@@ -10,5 +10,5 @@ cask_list=(
 )
 echo "Installing apps using cask..."
 for cask in "${cask_list[@]}"; do
-    brew cask install $cask
+    brew cask install --force $cask
 done
