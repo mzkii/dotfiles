@@ -13,6 +13,7 @@ echo ""
 echo "**************************************************"
 echo "**  Setup oh-my-zsh...                          **"
 echo "**************************************************"
+git clone git@github.com:mzkii/dotfiles.git ~/dotfiles
 git clone https://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
 cp ~/.zshrc ~/.zshrc.orig # backup
 curl https://raw.githubusercontent.com/mzkii/dotfiles/master/.zshrc > ~/.zshrc # overwrite
