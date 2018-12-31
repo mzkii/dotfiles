@@ -1,10 +1,4 @@
-# 📦 MZKII'S INSTALL PACKAGE 📦
-**ver.2019.1.1**
-
-![](https://i.imgur.com/8iQogJh.png)
-
-
-## 🔨 HOW TO SETUP 🔨
+## 🚀 USAGE
 ### STEP1
 Please install what you can not set up from Terminal (security software etc.) first.
 
@@ -58,7 +52,7 @@ Applications placed in `app_list` are also automatically `brew installed`.
 The application described in `cask_list` is installed automatically.
 
 
-#### [mas.sh]()
+#### [mas.sh](https://github.com/mzkii/dotfiles/blob/master/mas.sh)
 [mas](https://github.com/mas-cli/mas).sh installs applications distributed in AppStore.
 
 This is the **application ID** described in `mas_list`.
@@ -79,5 +73,17 @@ $ mas search Xcode
 ### STEP4
 Finally, set the colors and fonts of `iTerm2` and you're done. See [setup.sh](https://github.com/mzkii/dotfiles/blob/master/setup.sh) for details.
 
-🎉 congratulations!! 🎉
+**🔨Setup iTerm2-Color-Schemes**
+
+👉 `Preferences` 👉 `Profiles` 👉`Colors` 👉 `Color Presets...`
+
+👉 `import...` 👉 `dotfiles/iTerm2-Color-Schemes/schemes/Brogrammer.itermcolors`
+
+**🔨Setup iTerm2 powerline font**
+
+👉 `Preferences` 👉 `Profiles` 👉`Text` 👉 `Change Font`
+
+👉 `14pt Meslo LG S Regular for Powerline`
+
+**🎉congratulations!!**
 ![](https://i.imgur.com/8iQogJh.png)
